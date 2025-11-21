@@ -1,10 +1,6 @@
-# 📊 Relatório Técnico - Famartcorp Manager
 
-## 🎯 Visão Geral
 
 Sistema fullstack completo para gerenciamento de consultores, equipes, celulares e números WhatsApp com controle de acesso baseado em roles (Master, Gestor, Consultor).
-
----
 
 ## 🏗️ Arquitetura
 
@@ -67,9 +63,6 @@ famartcorp-frontend/
 └── vite.config.ts                          ✅ Proxy configurado
 ```
 
----
-
-## 📊 Esquema do Banco de Dados
 
 ### Tabelas Implementadas
 
@@ -84,7 +77,7 @@ equipe_id: bigint (FK → equipes.id) NULLABLE
 email_verified_at: timestamp NULLABLE
 remember_token: varchar(100) NULLABLE
 created_at, updated_at: timestamp
-```
+
 
 #### 2. equipes
 ```sql
